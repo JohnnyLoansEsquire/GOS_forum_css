@@ -1,0 +1,358 @@
+!!!!!!!!!!!!!!!!!!!! Discuss.Grapheneos.org !!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!! Inside a Discussion !!!!!!!!
+! Comment text ## Default text-size: 13px
+discuss.grapheneos.org##:root { --text-color: #ffffff !important; }
+discuss.grapheneos.org## .Post-body:style( font-size: 17px !important; )
+
+! likes, reply-chain, comment timestamp, "edited", Post scroll bar, magnifying glass
+!! #### more readable: #e4e4ff OR looks nicer: #ccccff
+discuss.grapheneos.org##:root { --muted-color: #e4e4ff !important; }
+
+! Comment Creator's Name # Default font-size: 13px
+discuss.grapheneos.org## .PostUser h3 a:style( font-size: 16px !important; )
+
+! Comment Age/Time ## Default font-size: 13px
+discuss.grapheneos.org## .item-meta:style( font-size: 15px !important; )
+
+! Code color
+discuss.grapheneos.org##:root { --code-bg: #000000 !important; }
+
+! Discussion Tags ## Default font-size: 14px
+discuss.grapheneos.org## .DiscussionHero-items:style( font-size: 19px !important; )
+
+! Other Usernames, Home Page > Unread Post Titles
+discuss.grapheneos.org##:root { --heading-color: var(--text-color) !important; }
+
+! @user, "search forum" ## quotes too but override below
+discuss.grapheneos.org##:root { --control-color: #e6e6e6 !important; }
+discuss.grapheneos.org## .PostMention:style( background: #025473 !important; )
+discuss.grapheneos.org## .UserMention:style( background: #025473 !important; )
+discuss.grapheneos.org## .GroupMention:style( background: #025473 !important; )
+
+! quotes ## Default font-size: 14px
+discuss.grapheneos.org## .Post-body blockquote:style( background: #003c66 !important; color: var(--text-color) !important; font-size: 17px !important; )
+
+! URL links
+discuss.grapheneos.org##:root { --link-color: #66ccff !important; }
+
+! Post Title ## Default font-size: 22px
+discuss.grapheneos.org## .Hero h1:style( font-size: 30px !important; )
+
+! Post Title & Tags
+discuss.grapheneos.org##:root { --text-on-light: #000000 !important; }
+discuss.grapheneos.org##:root { --text-on-dark: var(--text-color) !important; }
+
+! Comment scroll bar & Notification > user + action text-size
+discuss.grapheneos.org## .Dropdown-menu:style( font-size: 17px !important; )
+
+! Deleted User Badge  ## --size: 70px desktop ; 40px mobile
+discuss.grapheneos.org## .Badge.Badge--anonymized:style(--badge-color: #000000 !important; background: #cd9fdf !important; --size: 40px !important; )
+
+! Locked Discussion badge ## dark-mode only
+discuss.grapheneos.org## .Badge.Badge--locked:style(--badge-color: #000000 !important; )
+
+! Hover over User's picture > User's bio
+discuss.grapheneos.org##:root { --light-content-color: var(--text-color) !important; }
+
+! Notifications > "Notifications" Header
+discuss.grapheneos.org## .NotificationList-header h4:style( color:var(--text-color) !important; )
+
+! reply, like, follow post; Top right header: theme button, notification button, Username
+discuss.grapheneos.org##:root { --button-color: var(--text-color) !important; }
+
+! Draft a new comment ## Default text-size: 14px
+discuss.grapheneos.org## .TextEditor .TextEditor-editor:style( font-size: 17px !important; )
+! Draft a new comment > Header  (Post Title)  ## Default text-size: 14px
+discuss.grapheneos.org## .ComposerBody-header h3 a:style( color: var(--text-color) !important; font-size: 18px !important; )
+
+
+!!!!!!!! Global elements !!!!!!!!
+!!!! Search results !!!!
+! "Discussions" & "Users" Headers ## Default font-size: 12px
+discuss.grapheneos.org## .Dropdown-header:style( color: var(--text-color) !important; font-size: 14px !important; )
+! Post body ## Default font-size: 11px
+discuss.grapheneos.org## .DiscussionSearchResult-excerpt:style( font-size: 16px !important; )
+
+! Home page button on the top left
+discuss.grapheneos.org## .Header-title:style(--link-color: var(--text-color) !important; )
+
+! Notifications > user + action + time color
+discuss.grapheneos.org## .Notification:style( --muted-color: var(--text-color) !important; )
+
+! Notifications > time ## Default font-size: 11px
+! discuss.grapheneos.org## .Notification time:style( font-size: 14px !important; )
+
+! Notifications > Main comment ## Default font-size: 11px
+discuss.grapheneos.org## .Notification-excerpt:style( --muted-more-color: var(--text-color) !important; font-size: 16px !important; )
+
+! New Notification Counter ## Default font-size: 11px
+discuss.grapheneos.org##:root { --header-control-color: var(--text-color) !important; }
+discuss.grapheneos.org## .NotificationsDropdown-unread:style( font-size: 16px !important; background: #00c500 !important; color: var(--text-color) !important; padding: 1.5px 4px 3px !important; border-radius: 14px !important; min-width: 20px !important; height: 20px !important; top: 0px !important; left: 19px !important; )
+discuss.grapheneos.org## .NotificationsDropdown .Dropdown-toggle.new .Button-icon:style( --header-color: var(--text-color) !important; )
+
+
+!!!!!!!! Home page !!!!!!!!
+! "Welcome ... the official forum"
+discuss.grapheneos.org## .WelcomeHero.Hero
+
+! Home page > Unread comment count
+! ## Only Needed On narrow screens (mobile) ##
+discuss.grapheneos.org## .unread .DiscussionListItem-count:style( color: var(--text-on-light) !important; )
+
+! Home page > Unread comment count background
+! ## Only Needed On narrow screens (mobile) ##
+discuss.grapheneos.org## .unread .DiscussionListItem-count:style( background: #008aed !important; )
+
+! Home page > Read posts titles
+discuss.grapheneos.org##:root { --discussion-title-color: #e6e6e6 !important; }
+
+! Home page > Read post comment count ## Default text-size: 14px
+discuss.grapheneos.org## .DiscussionListItem-count:style( font-size: 16px !important; )
+
+! Home page > "All Discussions", Settings > Selected menu
+discuss.grapheneos.org##:root { --primary-color: var(--text-color) !important; }
+
+! Home page > last commenter + time  ## Default font-size: 11px
+discuss.grapheneos.org## .DiscussionListItem-info:style( font-size: 14px !important; )
+discuss.grapheneos.org##:root { --muted-more-color: var(--muted-color) !important; }
+
+! Home page > tags & Discussion > Tags header  ## Needed so the Home page tags & Discussion header tags can be different sizes ## Default text-size: ( Home: 10px ; Discussion: 14px )
+discuss.grapheneos.org## .TagLabel:style( font-size: inherit !important; )
+
+! Home page > sidebar (following, tags)
+discuss.grapheneos.org## .Dropdown-menu > li > a:style( font-size: 16px !important; color: var(--text-color) !important; )
+! ## Only Needed On narrow screens (mobile) ## Home page > sidebar expansion
+discuss.grapheneos.org## .Dropdown .Dropdown-menu > .active > a:style( background: var(--button-bg-hover) !important; )
+! ## Needed On narrow screens (mobile) but doesn't hurt to have it ## Home page > sidebar expansion
+discuss.grapheneos.org## .App-titleControl > .Button:style( color: var(--text-color) !important; )
+
+! Home page > hover over discussion
+discuss.grapheneos.org##:root { --discussion-list-item-bg-hover: #003f90 !important; }
+
+! Big buttons: "Start a Discussion", "Reply" ## Default font-size: 13px
+discuss.grapheneos.org##button:style( font-size: 16px !important; font-weight: bold !important; )
+discuss.grapheneos.org##:root { --button-primary-color: var(--text-color) !important; --button-bg-hover: #008aed !important; --button-primary-bg-hover: var(--button-bg-hover) !important; }
+discuss.grapheneos.org##:root { --button-bg: var(--button-primary-bg) !important; }
+
+
+!!!!!!!! Settings !!!!!!!!
+! Settings > Selected menu ## Default 13px ## Improved Delineation
+discuss.grapheneos.org## .sideNav .Dropdown--select .Dropdown-menu>li.active>a:style(font-size: 16px !important; )
+
+! Toggle button off color
+discuss.grapheneos.org## .Checkbox--switch.off .Checkbox-display:style(background: #ff0000 !important; )
+! Toggle button on color
+discuss.grapheneos.org## .Checkbox--switch.on .Checkbox-display:style(background: #89ff00 !important; )
+
+
+!!!!!!!! Settings > Security !!!!!!!!
+! "Terminate" color
+discuss.grapheneos.org##:root { --control-danger-color: var(--text-color) !important; }
+! "Terminate" button color
+discuss.grapheneos.org##:root { --control-danger-bg: #ff0000 !important; }
+! "Current Active Session"
+discuss.grapheneos.org##:root { --alert-success-color: #89ff00 !important; }
+
+
+!!!!!!!! User Bio !!!!!!!!
+! Date joined ## Default font-size: 12px
+discuss.grapheneos.org## .UserCard-info:style(font-size: 15px !important; )
+! Description ## Default font-size: 14px
+discuss.grapheneos.org## .UserBio:style(font-size: 16px !important; )
+
+
+!!!!!!!! User Profile > Posts !!!!!!!!
+! Discussion Titles ## Default font-size: 12px
+discuss.grapheneos.org## .PostsUserPage-discussion:style( font-size: 16px !important; )
+
+
+!!!!!!!! Tags Menu !!!!!!!!
+! Latest Post Title ## Default font-size: 12px
+discuss.grapheneos.org## .TagTile-lastPostedDiscussion:style( font-size: 16px !important; )
+! Tag Description ## Default font-size: 12px
+discuss.grapheneos.org## .TagTile-description:style( font-size: 16px !important; )
+
+
+!!!! Post Tag headers - Recoloring !!!!
+! Unsupported = Red ## Pixel 2-5
+discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(/Pixel [2-5]/):style(--tag-bg: #ff3300 !important; )
+! non MTE = Light blue ## Pixel 6-7, 2023 Fold, Tablet
+discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(/Pixel ([6-7]|F|T)/):style(--tag-bg: #ff99ff !important; )
+! MTE = Light Green ## Pixel 8-19
+discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(/Pixel ([8-9]|1[0-9])/):style(--tag-bg: #66ff33 !important; )
+! Alpha & Beta
+! discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(/Alpha|Beta/):style(--tag-bg: #00ffe7 !important; )
+! Development
+! discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(Development):style(--tag-bg: #ff0000 !important; )
+! discuss.grapheneos.org## header.DiscussionHero:has(.TagLabel-name:has-text(Development)):style(--hero-bg: #ff0000 !important)
+! Spam
+! discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(Spam):style(--tag-bg: #ca9e81 !important; )
+! discuss.grapheneos.org## header.DiscussionHero:has(.TagLabel-name:has-text(Spam)):style(--hero-bg: #ca9e81 !important)
+! Third party apps and services
+! discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(Third):style(--tag-bg: #c55bec !important; )
+! discuss.grapheneos.org## header.DiscussionHero:has(.TagLabel-name:has-text(Third)):style(--hero-bg: #c55bec !important)
+
+!!!! Home Page Tags - Recoloring !!!!
+! Tag ## Default font-size: 12px
+! discuss.grapheneos.org## .DiscussionListItem-info > .item-tags:style( font-size: 14px !important; )
+
+! Unsupported = Red ## Pixel 2-5
+discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(/Pixel [2-5]/):style(--tag-bg: #ff3300 !important; )
+! Sidebar
+discuss.grapheneos.org## a.TagLinkButton:has(.Button-label:has-text(/Pixel [2-5]/)) .TagIcon:style(--color: #ff3300 !important)
+! non MTE = Light blue ## Pixel 6-7, 2023 Fold, Tablet
+discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(/Pixel ([6-7]|F|T)/):style(--tag-bg: #ff99ff !important; )
+! Sidebar
+discuss.grapheneos.org## a.TagLinkButton:has(.Button-label:has-text(/Pixel ([6-7]|F|T)/)) .TagIcon:style(--color: #ff99ff !important)
+! MTE = Light Green ## Pixel 8-19
+discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(/Pixel ([8-9]|1[0-9])/):style(--tag-bg: #66ff33 !important; )
+! Sidebar
+discuss.grapheneos.org## a.TagLinkButton:has(.Button-label:has-text(/Pixel ([8-9]|1[0-9])/)) .TagIcon:style(--color: #66ff33 !important)
+
+! Alpha & Beta
+! discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(/Alpha|Beta/):style(--tag-bg: #00ffe7 !important; )
+! Development
+! discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(Development):style(--tag-bg: #ff0000 !important; )
+! Developement Sidebar
+! discuss.grapheneos.org## .item-tag4 .TagIcon:style(--color: #ff0000 !important)
+! Spam
+! discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(/Spam/):style(--tag-bg: #ca9e81 !important; )
+! Spam Sidebar
+! discuss.grapheneos.org## .item-tag50 .TagIcon:style(--color: #ca9e81 !important)
+! Third party apps and services
+! discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(Third):style(--tag-bg: #c55bec !important; )
+! Third party apps and services Sidebar
+! discuss.grapheneos.org## .item-tag43 .TagIcon:style(--color: #c55bec !important)
+
+
+!!!! List of all Tags Menu - Recoloring !!!!
+! Unsupported = Red ## Pixel 2-5
+discuss.grapheneos.org## .TagCloud .TagLabel:has-text(/Pixel [2-5]/):style(--tag-bg: #ff3300 !important; )
+! non MTE = Light blue ## Pixel 6-7, 2023 Fold, Tablet
+discuss.grapheneos.org## .TagCloud .TagLabel:has-text(/Pixel ([6-7]|F|T)/):style(--tag-bg: #ff99ff !important; )
+! MTE = Light Green ## Pixel 8-19
+discuss.grapheneos.org## .TagCloud .TagLabel:has-text(/Pixel ([8-9]|1[0-9])/):style(--tag-bg: #66ff33 !important; )
+! Alpha & Beta
+! discuss.grapheneos.org## .TagCloud .TagLabel:has-text(/Alpha|Beta/):style(--tag-bg: #00ffe7 !important; )
+! Development
+! discuss.grapheneos.org## .TagTiles .TagTile:has-text(/Development/):style(--tag-bg: #ff0000 !important;)
+! Spam
+! discuss.grapheneos.org## .TagTiles .TagTile:has-text(/Spam/):style(--tag-bg: #ca9e81 !important;)
+! Third party apps and services
+! discuss.grapheneos.org## .TagTiles .TagTile:has-text(/Third/):style(--tag-bg: #c55bec !important;)
+
+
+!!!! Filtered by Tag - Recoloring !!!!
+! Unsupported = Red ## Pixel 2-5
+discuss.grapheneos.org## .TagHero:has(.Hero-title:has-text(/Pixel [2-5]/)):style( background: #ff3300 !important; )
+! non MTE = Light blue ## Pixel 6-7, 2023 Fold, Tablet
+discuss.grapheneos.org## .TagHero:has(.Hero-title:has-text(/Pixel ([6-7]|F|T)/)):style( background: #ff99ff !important;)
+! MTE = Light Green ## Pixel 8-19
+discuss.grapheneos.org## .TagHero:has(.Hero-title:has-text(/Pixel ([8-9]|1[0-9])/)):style( background: #66ff33 !important; )
+! Alpha & Beta
+! discuss.grapheneos.org## .IndexPage--tag36 .Hero.TagHero.TagHero--colored:style( background: #00ffe7 !important; )
+! discuss.grapheneos.org## .IndexPage--tag37 .Hero.TagHero.TagHero--colored:style( background: #00ffe7 !important; )
+! Development
+! discuss.grapheneos.org## .IndexPage--tag4 .Hero.TagHero.TagHero--colored:style( background: #ff0000 !important; )
+! Spam
+! discuss.grapheneos.org## .IndexPage--tag50 .Hero.TagHero.TagHero--colored:style( background: #ca9e81 !important; )
+! Spam Tag Description ## Default font-size: 15px
+! discuss.grapheneos.org## .Hero-subtitle:style(font-size: 19px !important; )
+! Third party apps and services
+! discuss.grapheneos.org## .IndexPage--tag43 .Hero.TagHero.TagHero--colored:style( background: #c55bec !important; )
+
+
+!!!! Moderator Add/Remove Tags on a Post !!!!
+! Unsupported = Red ## Pixel 2-5
+discuss.grapheneos.org## a.TagLabel:has-text(/Pixel [2-5]/):style( --tag-bg: #ff3300 !important; )
+! non MTE = Light blue ## Pixel 6-7, 2023 Fold, Tablet
+discuss.grapheneos.org## a.TagLabel:has-text(/Pixel ([6-7]|F|T)/):style( --tag-bg: #ff99ff !important;)
+! MTE = Light Green ## Pixel 8-19
+discuss.grapheneos.org## a.TagLabel:has-text(/Pixel ([8-9]|1[0-9])/):style( --tag-bg: #66ff33 !important; )
+! Alpha & Beta
+! discuss.grapheneos.org## a.TagLabel:has-text(Alpha|Beta):style( --tag-bg: #00ffe7 !important; )
+! Development
+! discuss.grapheneos.org## a.TagLabel:has-text(Development):style( --tag-bg: #ff0000 !important; )
+! Spam
+! discuss.grapheneos.org## a.TagLabel:has-text(Spam):style( --tag-bg: #ca9e81 !important; )
+! Third party apps and services
+! discuss.grapheneos.org## a.TagLabel:has-text(Third):style( --tag-bg: #c55bec !important; )
+
+
+!!!!!!!! Start a New Discussion > Adding Tags !!!!!!!!
+! ## Many Previously Used Colors Are Slightly Different.  < 20% brightness change ##
+
+! "choose Tags for your discussion"
+discuss.grapheneos.org## .TagSelectionModal .Modal-header h3:style( color: var(--text-color) !important; )
+! "Choose a Primary Tag ## Default font-size: 13px
+discuss.grapheneos.org## .FormControl:style(font-size: 17px !important; )
+
+! Tag Text size ## Default font-size: 13px
+discuss.grapheneos.org## .Modal-footer:style( font-size: 17px !important; font-weight: bold !important; )
+! Spam description text ## Default font-size: 12px
+discuss.grapheneos.org## .SelectTagListItem-description:style( color: var(--text-color) !important; font-size: 16px !important; )
+
+
+!!!! Create a Discussion Tag Selection !!!!
+! Don't cut off the Tag name ## Default width: 150px
+discuss.grapheneos.org## .SelectTagListItem-name:style( width: 350px !important; )
+
+! Check Mark
+discuss.grapheneos.org## .SelectTagList>li.selected .icon::before:style( vertical-align: 6px !important; )
+
+
+!!!! Tag Selector !!!!
+! ## Regex is not usable because selecting a Primary Tag causes elements to ##
+! ## be re-used & text is shuffled around. The color does not travel with the Text ##
+
+! Unsupported = Red ## Pixel 2-5
+discuss.grapheneos.org## .SelectTagList > li:is([data-index="11"],[data-index="12"],[data-index="13"],[data-index="14"],[data-index="15"],[data-index="16"],[data-index="17"],[data-index="18"],[data-index="19"],[data-index="20"]):style(color: #e62e00 !important;)
+discuss.grapheneos.org## .SelectTagList > li:is([data-index="11"],[data-index="12"],[data-index="13"],[data-index="14"],[data-index="15"],[data-index="16"],[data-index="17"],[data-index="18"],[data-index="19"],[data-index="20"]) .TagIcon:style(--color: #e62e00 !important;)
+
+! non MTE = Light blue ## Pixel 6-7, 2023 Fold, Tablet
+discuss.grapheneos.org##.SelectTagList > li:is([data-index="21"],[data-index="22"],[data-index="23"],[data-index="28"],[data-index="29"],[data-index="30"],[data-index="31"],[data-index="32"]):style(color: #ff33ff !important;)
+discuss.grapheneos.org##.SelectTagList > li:is([data-index="21"],[data-index="22"],[data-index="23"],[data-index="28"],[data-index="29"],[data-index="30"],[data-index="31"],[data-index="32"]) .TagIcon:style(--color: #ff33ff !important;)
+
+! MTE = Light Green ## Pixel 8-19
+discuss.grapheneos.org##.SelectTagList > li:is([data-index="33"],[data-index="34"],[data-index="39"],[data-index="45"],[data-index="46"],[data-index="47"],[data-index="48"],[data-index="49"],[data-index="51"],[data-index="52"],[data-index="53"],[data-index="54"],[data-index="55"]):style(color: #33cc00 !important;)
+discuss.grapheneos.org##.SelectTagList > li:is([data-index="33"],[data-index="34"],[data-index="39"],[data-index="45"],[data-index="46"],[data-index="47"],[data-index="48"],[data-index="49"],[data-index="51"],[data-index="52"],[data-index="53"],[data-index="54"],[data-index="55"]) .TagIcon:style(--color: #33cc00 !important;)
+
+! Alpha & Beta
+discuss.grapheneos.org##.SelectTagList > li:is([data-index="36"],[data-index="37"]):style(color: #00ccb8 !important;)
+discuss.grapheneos.org##.SelectTagList > li:is([data-index="36"],[data-index="37"]) .TagIcon:style(--color: #00ccb8 !important;)
+
+! Development
+discuss.grapheneos.org##.SelectTagList > li[data-index="4"]:style(color: #33ccff !important;)
+discuss.grapheneos.org##.SelectTagList > li[data-index="4"] .TagIcon:style(--color: #33ccff !important;)
+
+! Spam ## Original Darker Color Works Well On White
+discuss.grapheneos.org## .SelectTagList > li[data-index="50"]:style( color: #ca9e81 !important; )
+discuss.grapheneos.org## .SelectTagList > li[data-index="50"] .TagIcon:style( --color: #ca9e81 !important; )
+
+! Third party apps and services
+discuss.grapheneos.org##.SelectTagList > li[data-index="43"]:style(color: #c55bec !important;)
+discuss.grapheneos.org##.SelectTagList > li[data-index="43"] .TagIcon:style(--color: #c55bec !important;)
+
+! General
+! discuss.grapheneos.org##.SelectTagList > li[data-index="1"]:style(color: #000000 !important;)
+! discuss.grapheneos.org##.SelectTagList > li[data-index="1"] .TagIcon:style(--color: #999999 !important;)
+
+
+!!!! Selected Tags !!!!
+! ## Known issue: Regex Pixel name binding causes colors to misalign when deselecting tags ##
+
+! Unsupported = Red ## Pixel 2-5
+discuss.grapheneos.org## .TagLabel.colored:has-text(/Pixel [2-5]/):style( --tag-bg: #ff3300 !important; )
+! non MTE = Light blue ## Pixel 6-7, 2023 Fold, Tablet
+discuss.grapheneos.org## .TagLabel.colored:has-text(/Pixel ([6-7]|F|T)/):style( --tag-bg: #ff99ff !important;)
+! MTE = Light Green ## Pixel 8-19
+discuss.grapheneos.org## .TagLabel.colored:has-text(/Pixel ([8-9]|1[0-9])/):style( --tag-bg: #66ff33 !important; )
+! Alpha & Beta
+! discuss.grapheneos.org## .TagLabel.colored:has-text(/Alpha|Beta/):style( --tag-bg: #00ffe7 !important; )
+! Development
+! discuss.grapheneos.org## .TagLabel.colored:has-text(Development):style( --tag-bg: #33ccff !important; )
+! Spam
+! discuss.grapheneos.org## .TagLabel.colored:has-text(Spam):style( --tag-bg: #ca9e81 !important; )
+! Third party apps and services
+discuss.grapheneos.org## .TagLabel.colored:has-text(Third):style( --tag-bg: #c55bec !important; )
