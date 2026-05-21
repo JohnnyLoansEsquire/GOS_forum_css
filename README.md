@@ -1,8 +1,8 @@
-# GrapheneOS Forum -- Readability uBlock Filters
+# GrapheneOS Forum | Readability uBlock Filters
 
 A collection of uBlock Origin filter lists to improve readability on [discuss.grapheneos.org](https://discuss.grapheneos.org).
 
-The filter lists here will apply cosmetic changes via css that don't modify the actual site content--only how it appears in your browser.
+The filter lists here will apply cosmetic changes via css that don't modify the actual site content -- only how it appears in your browser.
 
 ## Features
 
@@ -116,7 +116,7 @@ The filter lists here will apply cosmetic changes via css that don't modify the 
    - There is either: a save button or check mark to push before leaving this page.
    - Refresh the page or open the [website](https://discuss.grapheneos.org) in a new tab to view the changes.
 
-### Mobile - IronFox - Adding The List
+### Adding The List - Mobile - IronFox
 <details>
   <summary>Click Here To View The Picture Instructions</summary>
 
@@ -127,7 +127,7 @@ The filter lists here will apply cosmetic changes via css that don't modify the 
 ![Download Picture](Screenshots/mobile_add3.png)
 </details>
 
-### Desktop - Firefox - Adding The List
+### Adding The List - Desktop - Firefox
 <details>
   <summary>Click Here To View The Picture Instructions</summary>
 
