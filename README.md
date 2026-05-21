@@ -16,14 +16,14 @@ The filter lists here will apply cosmetic changes via css that don't modify the 
 
   🩷 Pink: Pixels without MTE
 
-  ❤️ Red: Pixelss not supported
+  ❤️ Red: Pixels not supported
 
-> Note: Color coding **will not** update automatically when devices reach [End of Life](https://endoflife.date/pixel).
+> Note: Color coding will **not** update automatically when devices reach [End of Life](https://endoflife.date/pixel).
 > Either: edit the list yourself, check back for a new release, or don't change a thing and enjoy life.
 
 ## Screenshots
 
-> Tip: Edit the list to keep only the changes you like!
+> Tip: Don't like everything you see? The lists are well documented to edit to your heart's content!
 
 ### Dark Mode
 <details>
@@ -49,7 +49,7 @@ The filter lists here will apply cosmetic changes via css that don't modify the 
 ![Dark Mode Create Discussion Tags Desktop](Screenshots/dark_create.png)
 
 ### Mobile - Narrow Screens
-> Note: the right image implemented a change suggested on line 9 of both 'dark' configs to make the replying person slightly darker
+> Note: the right image implemented a change suggested on line 9 of both 'dark' configs to make the replying person slightly darker. I like it this way.
 
 ![Dark Mode Home mobile](Screenshots/dark_mobile.png)
 
@@ -88,7 +88,8 @@ The filter lists here will apply cosmetic changes via css that don't modify the 
 
 1. **Add The uBlock Origin Extension To Your Browser** (if you haven't already)
    - [Get uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin-ubo)
-   - Most Chromium and Firefox based browsers support extensions on desktop; on Android try Kiwi or IronFox, Fennec (Although, Firefox is slow on Android)
+   - Most Chromium and Firefox based browsers support extensions on desktop; on Android consider: Kiwi, Edge, Cromite or IronFox, Fennec (Although, Firefox is slow on Android)
+     - This is not an endorsement for any browser, these are a few that allow extensions.
 
 2. **Choosing One Filter List**
    - Go to [discuss.grapheneos.org](https://discuss.grapheneos.org) on your device
@@ -145,7 +146,7 @@ The filter lists here will apply cosmetic changes via css that don't modify the 
 
    The lists are well documented for editing to your needs.
 
-   The lists available here improve the readability for those in need. Design was a secondary consideration.
+   The lists available here improve the readability for those in need. Design was a secondary consideration. Personally, I wouldn't have the text size this big. Before I went through everything and bumped up text size again, I figured: I can read this, but not everyone can.
 
 3) I could have done this better than you.
 
