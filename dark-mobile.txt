@@ -293,10 +293,8 @@ discuss.grapheneos.org## .Modal-footer:style( font-size: 17px !important; font-w
 ! Spam description text ## Default font-size: 12px
 discuss.grapheneos.org## .SelectTagListItem-description:style( color: var(--text-color) !important; font-size: 16px !important; )
 
-
-!!!! Create a Discussion Tag Selection !!!!
-! Don't cut off the Tag name ## Default width: 150px
-discuss.grapheneos.org## .SelectTagListItem-name:style( width: 350px !important; )
+! Don't cut off the Tag name ## Default width: 150px ## Desktop: 350px Mobile: 300px
+discuss.grapheneos.org## .SelectTagListItem-name:style( width: 300px !important; )
 
 ! Check Mark
 discuss.grapheneos.org## .SelectTagList>li.selected .icon::before:style( vertical-align: 6px !important; )

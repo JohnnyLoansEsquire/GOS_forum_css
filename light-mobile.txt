@@ -54,7 +54,7 @@ discuss.grapheneos.org## .Badge.Badge--group--1:style(--badge-bg: #cd9fdf !impor
 discuss.grapheneos.org## .Badge.Badge--group--4:style(--badge-bg: #cd9fdf !important)
 
 ! Deleted User Badge  ## --size: 70px desktop ; 40px mobile
-discuss.grapheneos.org## .Badge.Badge--anonymized:style(--badge-color: #000000 !important; background: #cd9fdf !important; --size: 70px !important; )
+discuss.grapheneos.org## .Badge.Badge--anonymized:style(--badge-color: #000000 !important; background: #cd9fdf !important; --size: 40px !important; )
 
 
 ! Hover over User's picture > User's bio
@@ -195,8 +195,8 @@ discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(/Pixel ([8-9]|
 ! Alpha & Beta
 discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(/Alpha|Beta/):style(--tag-bg: #00ffe7 !important; )
 ! Development
-discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(Development):style(--tag-bg: #ff0000 !important; )
-discuss.grapheneos.org## header.DiscussionHero:has(.TagLabel-name:has-text(Development)):style(--hero-bg: #ff0000 !important)
+discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(Development):style(--tag-bg: #33ccff !important; )
+discuss.grapheneos.org## header.DiscussionHero:has(.TagLabel-name:has-text(Development)):style(--hero-bg: #33ccff !important)
 ! Spam
 discuss.grapheneos.org## .DiscussionHero-items .TagLabel:has-text(Spam):style(--tag-bg: #ca9e81 !important; )
 discuss.grapheneos.org## header.DiscussionHero:has(.TagLabel-name:has-text(Spam)):style(--hero-bg: #ca9e81 !important)
@@ -224,9 +224,9 @@ discuss.grapheneos.org## a.TagLinkButton:has(.Button-label:has-text(/Pixel ([8-9
 ! Alpha & Beta
 discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(/Alpha|Beta/):style(--tag-bg: #00ffe7 !important; )
 ! Development
-discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(Development):style(--tag-bg: #ff0000 !important; )
+discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(Development):style(--tag-bg: #33ccff !important; )
 ! Developement Sidebar
-discuss.grapheneos.org## .item-tag4 .TagIcon:style(--color: #ff0000 !important)
+discuss.grapheneos.org## .item-tag4 .TagIcon:style(--color: #33ccff !important)
 ! Spam
 discuss.grapheneos.org## .DiscussionListItem-info .TagLabel:has-text(/Spam/):style(--tag-bg: #ca9e81 !important; )
 ! Spam Sidebar
@@ -247,7 +247,7 @@ discuss.grapheneos.org## .TagCloud .TagLabel:has-text(/Pixel ([8-9]|1[0-9])/):st
 ! Alpha & Beta
 discuss.grapheneos.org## .TagCloud .TagLabel:has-text(/Alpha|Beta/):style(--tag-bg: #00ffe7 !important; )
 ! Development
-discuss.grapheneos.org## .TagTiles .TagTile:has-text(/Development/):style(--tag-bg: #ff0000 !important;)
+discuss.grapheneos.org## .TagTiles .TagTile:has-text(/Development/):style(--tag-bg: #33ccff !important;)
 ! Spam
 discuss.grapheneos.org## .TagTiles .TagTile:has-text(/Spam/):style(--tag-bg: #ca9e81 !important;)
 ! Third party apps and services
@@ -265,7 +265,7 @@ discuss.grapheneos.org## .TagHero:has(.Hero-title:has-text(/Pixel ([8-9]|1[0-9])
 discuss.grapheneos.org## .IndexPage--tag36 .Hero.TagHero.TagHero--colored:style( background: #00ffe7 !important; )
 discuss.grapheneos.org## .IndexPage--tag37 .Hero.TagHero.TagHero--colored:style( background: #00ffe7 !important; )
 ! Development
-discuss.grapheneos.org## .IndexPage--tag4 .Hero.TagHero.TagHero--colored:style( background: #ff0000 !important; )
+discuss.grapheneos.org## .IndexPage--tag4 .Hero.TagHero.TagHero--colored:style( background: #33ccff !important; )
 ! Spam
 discuss.grapheneos.org## .IndexPage--tag50 .Hero.TagHero.TagHero--colored:style( background: #ca9e81 !important; )
 ! Spam Tag Description ## Default font-size: 15px
@@ -284,7 +284,7 @@ discuss.grapheneos.org## a.TagLabel:has-text(/Pixel ([8-9]|1[0-9])/):style( --ta
 ! Alpha & Beta
 discuss.grapheneos.org## a.TagLabel:has-text(/Alpha|Beta/):style( --tag-bg: #00ffe7 !important; )
 ! Development
-discuss.grapheneos.org## a.TagLabel:has-text(Development):style( --tag-bg: #ff0000 !important; )
+discuss.grapheneos.org## a.TagLabel:has-text(Development):style( --tag-bg: #33ccff !important; )
 ! Spam
 discuss.grapheneos.org## a.TagLabel:has-text(Spam):style( --tag-bg: #ca9e81 !important; )
 ! Third party apps and services
@@ -304,10 +304,8 @@ discuss.grapheneos.org## .Modal-footer:style( font-size: 17px !important; font-w
 ! Spam description text ## Default font-size: 12px
 discuss.grapheneos.org## .SelectTagListItem-description:style( color: var(--text-color) !important; font-size: 16px !important; )
 
-
-!!!! Create a Discussion Tag Selection !!!!
-! Don't cut off the Tag name ## Default width: 150px
-discuss.grapheneos.org## .SelectTagListItem-name:style( width: 350px !important; )
+! Don't cut off the Tag name ## Default width: 150px ## Desktop: 350px Mobile: 300px
+discuss.grapheneos.org## .SelectTagListItem-name:style( width: 300px !important; )
 
 ! Check Mark
 discuss.grapheneos.org## .SelectTagList>li.selected .icon::before:style( vertical-align: 6px !important; )
@@ -334,8 +332,8 @@ discuss.grapheneos.org##.SelectTagList > li:is([data-index="36"],[data-index="37
 discuss.grapheneos.org##.SelectTagList > li:is([data-index="36"],[data-index="37"]) .TagIcon:style(--color: #00ccb8 !important;)
 
 ! Development
-discuss.grapheneos.org##.SelectTagList > li[data-index="4"]:style(color: #ff0000 !important;)
-discuss.grapheneos.org##.SelectTagList > li[data-index="4"] .TagIcon:style(--color: #ff0000 !important;)
+! discuss.grapheneos.org##.SelectTagList > li[data-index="4"]:style(color: #33ccff !important;)
+! discuss.grapheneos.org##.SelectTagList > li[data-index="4"] .TagIcon:style(--color: #33ccff !important;)
 
 ! Spam ## Original Darker Color Works Well On White
 ! discuss.grapheneos.org## .SelectTagList > li[data-index="50"]:style( color: #ca9e81 !important; )
@@ -351,7 +349,7 @@ discuss.grapheneos.org##.SelectTagList > li[data-index="1"] .TagIcon:style(--col
 
 
 !!!! Selected Tags !!!!
-! ## Known issue: Regex binding causes colors to misalign when deselecting tags ##
+! ## Known issue: Regex Pixel name binding causes colors to misalign when deselecting tags ##
 
 ! Unsupported = Red ## Pixel 2-5
 discuss.grapheneos.org## .TagLabel.colored:has-text(/Pixel [2-5]/):style( --tag-bg: #ff3300 !important; )
@@ -362,7 +360,7 @@ discuss.grapheneos.org## .TagLabel.colored:has-text(/Pixel ([8-9]|1[0-9])/):styl
 ! Alpha & Beta
 discuss.grapheneos.org## .TagLabel.colored:has-text(/Alpha|Beta/):style( --tag-bg: #00ffe7 !important; )
 ! Development
-discuss.grapheneos.org## .TagLabel.colored:has-text(Development):style( --tag-bg: #ff0000 !important; )
+discuss.grapheneos.org## .TagLabel.colored:has-text(Development):style( --tag-bg: #33ccff !important; )
 ! Spam
 discuss.grapheneos.org## .TagLabel.colored:has-text(Spam):style( --tag-bg: #ca9e81 !important; )
 ! Third party apps and services
