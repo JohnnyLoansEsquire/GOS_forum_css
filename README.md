@@ -2,7 +2,7 @@
 
 A collection of uBlock Origin filter lists to improve readability on [discuss.grapheneos.org](https://discuss.grapheneos.org).
 
-The filter lists here will apply cosmetic changes via CSS that don't modify the site content — only how it appears in your browser.
+These filter lists apply cosmetic changes via CSS, affecting only how the site appears in your browser — not its content. The one exception is the welcome banner on the home page, which is hidden on the assumption that users are already familiar with the official forum. ("Welcome to the GrapheneOS Discussion Forum — Official forum for discussing GrapheneOS and related topics.")
 
 > ### Note:
 > 
@@ -22,6 +22,8 @@ The filter lists here will apply cosmetic changes via CSS that don't modify the 
 - **Larger Text**
 - Light Mode has **only dark text**! No more white text.
 - **Toggles & Buttons** are more prominent
+- **Hide the Welcome Banner** — Experienced users are aware
+  - "Official forum for discussing GrapheneOS and related topics."
 - **Pixel Model Color Coding**: Device support status is color coded
 
   💚 Green: Pixels with MTE
